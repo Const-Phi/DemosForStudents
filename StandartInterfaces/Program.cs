@@ -24,7 +24,8 @@ namespace StandartInterfaces
                 new Person("Цветаева Марина Ивановна", new DateTime(1892, 10, 8), new DateTime(1941, 8, 31)),
                 new Person("Ахматова Анна Андреевна", new DateTime(1889, 6, 23), new DateTime(1966, 3, 5)),
                 new Person("Гумилёв Николай Степанович", new DateTime(1886, 4, 15), new DateTime(1921, 8, 21)),
-                new Person("Маяковский Владимир Владимирович", new DateTime(1893, 7, 19), new DateTime(1930, 4, 14))
+                new Person("Маяковский Владимир Владимирович", new DateTime(1893, 7, 19), new DateTime(1930, 4, 14)),
+                new Person("Полозкова Вера Николаевна", new DateTime(1986, 3, 5))
             };
 
             ShowPersons(persons, "before sorting:");
